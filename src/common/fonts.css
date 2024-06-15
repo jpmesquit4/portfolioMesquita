@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: "spartan-light";
+    src: url("/src/assets/fonts/LeagueSpartan-Light.ttf");
+}
+
+@font-face {
+    font-family: "spartan-medium";
+    src: url("/src/assets/fonts/LeagueSpartan-Medium.ttf");
+}
+
+@font-face {
+    font-family: "spartan-semibold";
+    src: url("/src/assets/fonts/LeagueSpartan-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "spartan-regular";
+    src: url("/src/assets/fonts/LeagueSpartan-Regular.ttf");
+}
+
+
