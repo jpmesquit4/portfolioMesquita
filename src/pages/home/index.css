@@ -369,7 +369,7 @@ body {
     font-size: 14px;
 }
 
-.card-chamado a {
+.card-chamado button {
     color: #1A191A;
     font-family: "spartan-regular";
     font-size: 14px;
@@ -379,15 +379,16 @@ body {
     border: 1px solid #1A191A;
     text-decoration: none;
     transition: 0.3s;
+    background-color: transparent;
 }
 
-.card-chamado a:hover {
+.card-chamado button:hover {
     transform: scale(1.03);
     background-color: white;
     border: 1px solid transparent;
 }
 
-.card-chamado a:active {
+.card-chamado button:active {
     transform: scale(1);
 }
 
