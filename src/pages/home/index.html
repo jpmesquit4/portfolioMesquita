@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/src/common/fonts.css">
+</head>
+<script>
+    function redirecionarParaGmail() {
+        var email = "joaopedromesq123@gmail.com";
+        var assunto = "Vim pelo Portfolio...";
+        var corpo = "";
+        var link = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(email) +
+                   "&su=" + encodeURIComponent(assunto) + 
+                   "&body=" + encodeURIComponent(corpo);
+
+        window.location.href = link;
+    }
+</script>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+    <body>
+        
+        <div class="sessao-1">
+            <div class="s1-cabecalho">
+                <h1>mesquita</h1>
+
+                <div>
+                    <a>Home</a>
+                    <a href="#section2" >Skills</a>
+                    <a>Portfolio</a>
+                    <a href="#section2" >Contact</a>
+                    <a href="#section1">About</a>
+                </div>  
+
+                <button onclick="redirecionarParaGmail()" class="bt-contrate-me" href="">Contrate-me</button>
+
+            </div>
+
+            <div class="s1-apresentacao">
+                <div>
+                    <h2>Olá, Eu sou <span style="color: #FFB948">Mesquita</span></h2>
+                    <img src="/src/assets/images/emojiDedo.png" alt="">
+                    <img src="/src/assets/images/emojiNerd.png" alt="">
+                </div>
+                
+                <h1>Full Stack Developer</h1>
+                <p>Estou projetando e codificando coisas lindamente simples e adoro o que faço!</p>
+            </div>
+
+            <div class="cards-git-in-cv">
+                <div class="card">
+                    <div>
+                        <li style="--color: #FFB948">
+                            <i class="bi bi-github"></i>
+                        </li>
+                    </div>
+
+                    <p>Github com alguns de meus melhores projetos</p>
+
+                    <a href="https://github.com/jpmesquit4" style="color: #ffffff" class="bi bi-arrow-right"></a>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <li style="--color: #FFB948">
+                            <i class="bi bi-linkedin"></i>
+                        </li>
+                    </div>
+
+                    <p>Conheça um pouco mais de mim.</p>
+
+                    <a href="https://www.linkedin.com/in/joaopedromesquitarosa/" style="color: #ffffff" class="bi bi-arrow-right"></a>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <li style="--color: #FFB948">
+                            <i class="bi bi-file-earmark-person"></i>
+                        </li>
+                    </div>
+
+                    <p>Meu currículo com minhas formações e informações sobre mim.</p>
+
+                    <a href="/src/assets/download/curriculo.docx" download style="color: #ffffff" class="bi bi-arrow-right"></a>
+                </div>
+
+
+            </div>
+
+            <div id="section1" class="sessao-2">
+                <p class="p-session">Quem sou eu?</p>
+
+                <div>
+                    <div class="minhaFoto">
+                        <img src="/src/assets/images/minhaFoto.png" alt="">
+                    </div>
+    
+                    <div class="sobreMim">
+                        <h1>Sobre mim</h1>
+                        <p>Olá, meu nome é João Pedro Mesquita tenho 18 anos e sou um Programador Full Stack Júnior com habilidades em desenvolvimento web e software.<br/><br/> Atualmente, estou cursando Ciência da Computação na Uninove, onde estou adquirindo uma base sólida em conceitos de computação e desenvolvimento de software. Paralelamente, estou me especializando através do curso "DevMonk - Programming Foundation", que tem ampliado meu conhecimento e habilidades práticas em programação. Possuo um nível intermediário de inglês, o que me permite compreender documentação técnica, colaborar em projetos internacionais e me comunicar com desenvolvedores de diferentes partes do mundo. <br/><br/> Estou sempre buscando aprender e me desenvolver, com foco em aprimorar minhas habilidades técnicas e contribuir para projetos desafiadores.</p>
+                        <button onclick="redirecionarParaGmail()" class="bt-contrate-me" href="">Contrate-me</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section2" class="sessao-3">
+                <p class="p-session">Minhas Skills</p>
+
+                <div>
+                    <div class="sobreSkills">
+                        <h1>O que minhas habilidades de programação incluem?</h1>
+                        <p>Desenvolvo uma interface de usuário simples, intuitiva e responsiva que ajuda os usuários a realizar tarefas com menos esforço e tempo com essas tecnologias.</p>
+                        <button onclick="redirecionarParaGmail()" class="bt-contrate-me" href="">Contrate-me</button>
+                    </div>
+    
+                    <div class="icons-linguagens">
+                        <ul>
+                            <li style="--color: #ff6961">
+                                <i class='bx bxl-html5'></i>
+                            </li>
+                            <li style="--color: #0072b1">
+                                <i class='bx bxl-css3' ></i>
+                            </li>
+                            <li style="--color: #a3e7d6">
+                                <i class='bx bxl-react' ></i>
+                            </li>
+                            <li style="--color: #ffb6c1">
+                                <i class='bx bxl-sass' ></i>
+                            </li>
+                            <li style="--color: #FFB948">
+                                <i class='bx bxl-javascript'></i>
+                            </li>
+                            <li style="--color: #ff6400">
+                                <i class='bx bxl-java' ></i>
+                            </li>
+                            <li style="--color: #2dba4e">
+                                <i class='bx bxl-github' ></i>
+                            </li>
+                            <li style="--color: #0072b1">
+                                <i class='bx bxl-nodejs' ></i>
+                            </li>
+                            <li style="--color: #a3aaae">
+                                <i class='bx bx-data'></i>
+                            </li>
+                            <li style="--color: #9400d3">
+                                <i class="devicon-csharp-plain"></i>
+                            </li>
+                       
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section3" class="card-chamado">
+                <h1>Iniciar um projeto</h1>
+                <p>Interessado em trabalhar juntos? Devíamos fazer fila para conversar.<br/>Eu compro o café.</p>
+                <a href="">Vamos nessa!</a>
+            </div>
+
+            <div class="sessao-rodape">
+                <div>
+                    <h1>mesquita<span style="color: #FFB948">.</span> </h1>
+                    <p>Full Stack Developer</p>
+                </div>
+
+                <div>
+                    <h3>Links úteis</h3>
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Skills</a>
+                    <a href="">Portfolio</a>
+                    <a href="">Contact</a>
+                </div>
+
+                <div>
+                    <h3>Rede Sociais</h3>
+                    <a href="">Instagram</a>
+                    <a href="">Linkedin</a>
+                    <a href="">Github</a>
+                </div>
+
+                <div class="newsletter">
+                    <h3>NewsLetter</h3>
+                    <p>Digite seu e-mail e seja avisado sobre novidades.</p>
+
+                    <form action="https://formsubmit.co/joaopedromesq123@gmail.com" method="POST">
+                        <input type="email" name="email" required placeholder="Seu endereço de email:">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/src/pages/home/">
+                        <button type="submit">
+                            <i class='bx bxs-paper-plane'></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
