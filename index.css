@@ -475,7 +475,7 @@ body {
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 320px) {
 
     .s1-cabecalho {
         display: flex;
