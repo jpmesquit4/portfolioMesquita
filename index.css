@@ -686,8 +686,8 @@ body {
     .card-chamado h1 {
         color: #1A191A;
         font-family: "spartan-medium";
-        font-size: 14px;
-        letter-spacing: -1px;
+        font-size: 10px;
+        letter-spacing: 0.2px;
     
     }
     
