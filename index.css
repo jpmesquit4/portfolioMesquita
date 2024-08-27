@@ -475,7 +475,10 @@ body {
 }
 
 
-@media (max-width: 320px) {
+
+
+/* Celular Medio */
+@media (max-width: 720px) {
 
     .s1-cabecalho {
         display: flex;
